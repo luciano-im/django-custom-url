@@ -26,7 +26,7 @@ setup(
     name=package_name,
     packages=find_packages(),
     version=0.1,
-    description="A Django app to easily manage custom url linked to a non-html file.",
+    description="A Django app to easily manage custom url linked to static files.",
     long_description=long_description,
     long_description_content_type=long_description_content_type,
     author="Luciano Muñoz",
