@@ -12,6 +12,11 @@ class CustomUrlView(View):
     
     def get(self, request, *args, **kwargs):
         url = self.kwargs.get('url', None)
+
+        if not url.startswith("/"):
+            url = '/' + url
+        if not url.endswith("/") and settings.APPEND_SLASH:
+            url += '/'
         obj = get_object_or_404(CustomUrl, url=url)
         
         content_type = obj.file_type
