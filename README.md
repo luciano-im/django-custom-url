@@ -10,7 +10,7 @@ the URL, they can view or download the related file (depending on whether it is 
 
 ---
 
-<br>
+
 ## Supported file types
 * Plain Text
 * CSV
@@ -24,7 +24,7 @@ the URL, they can view or download the related file (depending on whether it is 
 * SVG
 * PDF
 
-<br>
+
 ## How it works
 There is possible to use this app in two ways:
 1. Use a fallback view that will check for a custom URL if all other URL patterns fails.
@@ -32,7 +32,7 @@ There is possible to use this app in two ways:
 2. Execute an administrative command after creating the custom URLs in the admin, which will harcode URLs in a urls.py file.
    This option require restarting you application server each time a URL is added or modified.
 
-<br>
+
 ## Installation
 1. Run `pip install django-custom-url`
 2. Add `custom_url` to `settings.INSTALLED_APPS` like this:
@@ -44,7 +44,7 @@ There is possible to use this app in two ways:
 ```
 3. Run `python manage.py migrate`
 
-<br>
+
 ## Setup
 If you want to use the fallback view (option 1 of the "How it works" section):
 
@@ -58,7 +58,7 @@ If you want to use the fallback view (option 1 of the "How it works" section):
     ]
 ```
 
-<br>
+
 If you want to opt for the hardcoded URLs (option 2 of the "How it works" section):
 
 1. Include the Custom URL URLconf in your project urls.py like this:
@@ -73,11 +73,11 @@ If you want to opt for the hardcoded URLs (option 2 of the "How it works" sectio
 3. Run `python .\manage.py  update_urls` to update the Custom URL urls.py file.
 
 
-<br>
+
 ## License
 Released under [MIT License](LICENSE).
 
 
-<br>
+
 ## Support
 If you are having issues, please let me know through raising an issue, or just sending me a DM to [@luciano_dev](https://twitter.com/luciano_dev).
