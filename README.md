@@ -1,3 +1,10 @@
+[![](https://img.shields.io/pypi/pyversions/django-custom-url?color=3776AB&logo=python&logoColor=white)](https://www.python.org/)
+[![](https://img.shields.io/pypi/djversions/django-custom-url?color=0C4B33&label=django&logo=django&logoColor=white)](https://www.djangoproject.com/)
+
+[![](https://img.shields.io/pypi/v/django-custom-url?color=3776AB&logo=pypi&logoColor=white)](https://pypi.org/project/django-custom-url/)
+[![](https://img.shields.io/pypi/l/django-custom-url?color=3776AB)](https://github.com/luciano-im/django-custom-url/blob/main/LICENSE)
+
+
 # django-custom-url
 django-custom-url is a Django app to **easily manage custom url linked to static files**.
 

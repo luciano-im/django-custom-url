@@ -25,7 +25,7 @@ except IOError:
 setup(
     name=package_name,
     packages=find_packages(),
-    version=0.1,
+    version=0.2,
     description="A Django app to easily manage custom url linked to static files.",
     long_description=long_description,
     long_description_content_type=long_description_content_type,
