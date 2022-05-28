@@ -55,3 +55,7 @@ docs/_build/
 # PyBuilder
 screenshots
 TODO.txt
+
+# Custom
+.DS_Store
+custom_url/mediafiles/
